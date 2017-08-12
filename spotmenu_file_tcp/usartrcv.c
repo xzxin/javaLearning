@@ -6,7 +6,7 @@ int usart_init(void)
 {
     int fd;
     int ret;
-
+/*看见我的改动了吗*/
     fd = open(DEV_NAME, O_RDWR|O_NOCTTY);//|O_APPEND);//|O_NDELAY);
     //fd = open(DEV_NAME, O_RDONLY|O_NOCTTY|O_NDELAY);//|O_NONBLOCK);
         if(fd < 0) {
@@ -26,4 +26,13 @@ int usart_init(void)
     // printf("result = %d\n",ret);
     return(fd);
 }
-
+/*曾经有一份真挚的爱情放在我面前
+我没有珍惜
+直到现在我才追悔莫及
+如果能给我一个重头再来的机会
+我会对那个女孩说
+我爱你
+如果一定要在这份爱上加一个期限
+我希望是
+一万年
+*/
