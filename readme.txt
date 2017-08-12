@@ -1,2 +1,2 @@
 Git is a distributede version control system.
-Git is cost software
+Git is cost software under the GPL.
